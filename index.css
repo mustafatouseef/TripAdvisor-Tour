@@ -1,0 +1,240 @@
+/* body{
+    background-color: aqua;
+} */
+
+.Container_{
+    background-color: rgb(110, 99, 99);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    
+    position: fixed;
+    top: 0; 
+    box-shadow: 0px -1px 1px rgb(255, 255, 255);
+    z-index: 100;
+}
+
+.Tripadvisor_logo{
+     width: 150px;
+}
+
+.Nav_bar_list{
+    list-style: none;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 200px;
+
+}
+
+div > ul > li{
+    padding: 10px;
+}
+
+.Navbar_Btn{
+    height: 40px;
+    width: 70px;
+    border: 2px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+    
+}
+
+div > ul > li:hover{
+    cursor: pointer;
+    
+}
+
+.Navbar_Btn:hover{
+    cursor: pointer;
+       opacity: 0.8;
+}
+
+.button_container{
+    height: 100px;
+    margin-top: 130px;
+    padding-left: 100px;
+    padding-right: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+    
+}
+
+
+.Buttons_Designing{
+    height: 80px;
+    width: 160px;
+   margin-right: 10px;
+   border-width: 1px;
+   border-radius: 15px;
+   font-size: 15px;
+   text-align: left;
+   font-weight: bold;
+   
+  
+}
+
+.Buttons_Designing:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.Card_heading_{
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Card_paragraph{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+   /* CARDS */
+
+.Card_Container{                                      
+    min-height: 300px;
+    min-width: 300px;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-around;
+    font-size: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #000;
+ }
+
+/* BOXES */
+
+.Card_image_{
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+position: relative;
+box-shadow: 1px;
+} 
+
+h1{
+   position: absolute;
+   left: 25px;
+   bottom: -1px;
+   color: #fff;
+}
+
+/* Karachi Tour */
+
+.khi_tour_flexbox_{
+    min-height: 300px;
+    min-height: 300px;
+    /* background-color: rgb(93, 233, 233); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BoXes{
+    /* background-color: #58629b; */
+    width: 400px;
+    height: 430px;
+    color: #000;
+    margin: auto;
+flex-direction: column;
+margin-top: 50px;
+inline-size: 300px;
+cursor: pointer;
+box-shadow: 1px 1px;
+position: relative;
+} 
+
+.KHI_HEADING:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.box_border{
+    min-height: 200px;
+    min-height: 10px;
+    
+    display: flex;
+    color: rgb(0, 95, 0);
+   }
+
+.BORderRadIus{
+
+        border: solid;
+    border-radius: 60%;
+   margin-left: 2px;
+  }
+
+.EndPage_{
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    padding-left: 100px;
+    margin-top: 60px;
+   
+}
+
+.EndPage_Desc{
+    background-color: antiquewhite;
+    width: 50%;
+    height: 200px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    font-size: large;
+}
+
+.EndPage_Img{
+  
+    width: 50%;
+    height: 200px;
+padding-right: 100px;
+} 
+
+.EndPage_Para{
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+}
+
+.EndPage_Btn{
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    border: 2px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+}
+
+.EndPage_Btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.Box_Hearticon{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #fff;
+    border-radius: 100%; 
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
